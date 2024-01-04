@@ -1,11 +1,11 @@
 const questionArray = [
     {
-        question :"This is question 1",
+        question :"1. This is question 1",
         options :[
-            {value:"option1", isCorrect : false},
-            {value:"option2", isCorrect : false},
-            {value:"option3", isCorrect : true},
-            {value:"option4", isCorrect : false}
+            {value:"option 1", isCorrect : false},
+            {value:"option 2", isCorrect : false},
+            {value:"option 3", isCorrect : true},
+            {value:"option 4", isCorrect : false}
         ]
     },
     {
