@@ -1,0 +1,109 @@
+*{
+    margin : 0;
+    padding : 0;
+    font-family: 'Poppins';
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    /* background: linear-gradient(135deg, #ff87fb, #7ae7fd); */
+    background: linear-gradient(135deg, #141214, #142a2f);
+    padding :10px;
+}
+.weather-app{
+    background: linear-gradient(135deg, #1cbbe3, #22c951);
+    width: 100%;
+    /* height: auto; */
+    max-width: 512px;
+    margin : 50px auto ;
+    padding : 40px 30px 40px;
+    border-radius: 10px;
+    text-align: center;
+    color: aliceblue;
+}
+.search{
+    /* position: relative; */
+    /* align-items: center; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.search input{
+    border:0;
+    outline: 0;
+    text-align:justify;
+    flex: 1;
+    margin-right: 15px;
+    border-radius: 20px;
+    padding : 10px 25px;
+    font-size: 18px;
+    background-color: #ebfffc;
+}
+.search button{
+    /* border-style: none; */
+    outline : 0;
+    border: 0;
+    background-color: #ebfffc;
+    border-radius: 37%;
+    height: 45px;
+    width: 60px;
+}
+.search button:hover{
+    background: #dbdbdb;
+    cursor: pointer;
+}
+.search img{
+    width: 15px;
+}
+.weather-icon{
+    width: 170px;
+    margin-top: 30px;
+}
+.temp{
+    font-size: 72px;
+    font-weight: 700;
+}
+.cityName{
+    margin-top: -10px;
+    font-size: 36px;
+    font-weight: 300;
+}
+.details{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    /* background-color: #807f7f;
+    background: transparent; */
+    /* border-radius: 20px; */
+    /* border: 0; */
+    justify-content: space-between;
+    padding : 0px 40px;
+    margin-top: 50px;
+}
+
+.col{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    text-align: left;
+}
+.col img{
+    width : 40px;
+    margin-right: 10px;
+}
+.humidity, .wind{
+    font-size: 26px;
+    margin-top: -6px;
+}
+.error{
+    color: rgb(255, 255, 255);
+    font-size: medium;
+    font-weight: 500;
+    text-align: left;
+    margin: 20px;
+    display: none;
+}
+.weather{
+    display: none;
+}

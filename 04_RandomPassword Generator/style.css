@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+}
+body{
+    background-color : #002339 ;
+    color : #fff;
+}
+.container{
+    margin: 12%;
+    width: 90%;
+    max-width: 600px;
+}
+.heading span{
+    color: #f1a436;
+    text-underline-position: under;
+    text-decoration: underline;
+}
+.copy{
+    /* width: 30px; */
+    /* height: 50px; */
+    cursor: pointer;
+    display: flex;
+    border: none;
+    outline: 0;
+    background: transparent;
+    align-items: center;
+}
+.copy img{
+    width: 30px;
+    margin-right :5px;
+}
+
+.displayPassword{
+    display: flex;
+    flex : 1;
+    /* width: 100%; */
+    background-color: #fff;
+    color :#333;
+    padding: 10px 20px 10px;
+    border-radius: 4px;
+    margin : 40px auto 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+.displayPassword input{
+    border-style: none;
+    outline: 0;
+    font-size: 18px;
+}
+.generateBtn{
+    background-color: #1ba630;
+    color:#fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    padding-right: 20px;
+    font-size: 22px;
+    font-weight: 400;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.generateBtn img{
+    width :36px;
+    margin-left: 10px;
+    margin-right: 10px;
+    /* color: #f00; */
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+}
+
+

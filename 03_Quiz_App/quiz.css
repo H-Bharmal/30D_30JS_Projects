@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+
+.container {
+    background: linear-gradient(135deg, #d6ad1a, #14b4d8);
+    height: 100vh;
+    padding: 10px;
+    width: 100%;
+}
+
+.quiz-container {
+    width: 100%;
+    max-width: 512px;
+    margin: 75px auto;
+    padding: 20px;
+    text-align: center;
+    border-radius: 17px;
+    background-color: #fff;
+    /* max-height: px; */
+}
+
+.quiz-app {
+    margin: 10px 20px;
+    padding: 10px 10px;
+    display: none;
+}
+
+.question {
+    text-align: left;
+    font-style: italic;
+    margin: 10px 10px 20px;
+    padding: 20px;
+    background-color: beige;
+    border-radius: 5px;
+}
+
+.options {
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    background-color: #ecf4c7;
+    border-radius: 5px;
+    border: solid 1px;
+    /* max-height: 100px; */
+}
+
+.option-label {
+    display: flex;
+    flex: 1;
+    background-color: aliceblue;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    align-items: baseline;
+    text-align: left;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+input[type="checkbox"]{
+    visibility: hidden;
+}
+
+.option-label:hover {
+    background-color: rgb(196, 197, 198);
+}
+
+input[type="checkbox"]:checked + label{
+    background-color: #f9d806; /* Change this to the desired color */
+    color: #111010;
+}
+
+input {
+    margin-right: 10px;
+}
+
+.back-next {
+    display: flex;
+    flex: 1;
+    /* padding: 10px; */
+    border-radius: 10px;
+    margin: 10px 0px 0px;
+    align-items: center;
+    text-align: right;
+    justify-content: space-between;
+}
+
+button {
+    background-color: #061a1f;
+    display: none;
+    color: #fff;
+    border-radius: 5px;
+    border-style: none;
+    padding: 5px 15px 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin : 20px auto;
+}
+
+button:hover {
+    background-color: #1f3b41;
+    color: #fff;
+}
+
+.result{
+    background-color: rgb(36, 169, 36);
+    border-radius: 10px;
+    width: fit-content;
+    padding: 20px;
+    margin: 20px auto;
+    display: none;
+    color : #fff;
+}
+.result h2{
+    margin : 20px auto;
+}
+#startBtn{
+    display: flex;
+}

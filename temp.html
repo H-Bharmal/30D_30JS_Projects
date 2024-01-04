@@ -1,0 +1,22 @@
+<head>
+</head>
+<body>
+<input type="checkbox" id="checkbox1">
+<label for="checkbox1" class="checkbox-label">Answer Choice 1</label>
+
+<style>
+  input[type="checkbox"] {
+    visibility: hidden;
+  }
+
+  label{
+    margin: 20px;
+    background-color: aqua;
+    padding : 20px;
+  }
+
+  input[type="checkbox"]:checked ~ label {
+    background-color: #4CAF50;
+  }
+</style>
+</body>
