@@ -7,12 +7,13 @@
     box-sizing: border-box;
 }
 .container{
-    color:#fff;
+    color:#522b5b;
     width: 100%;
     padding: 20px;
     min-height: 100vh;
     /* background: linear-gradient(153deg,#ffffff,#37cedb,#ffffff); */
-    background: linear-gradient(135deg,#042d5f,#013a3b);
+    /* background: linear-gradient(135deg,#042d5f,#013a3b); */
+    background-color: #fcefea ;
     text-align: center;
 }
 
@@ -22,7 +23,7 @@
     border-radius: 5px;
     justify-content: space-evenly;
     align-items: center;
-    color : #fff;
+    /* color : #fff; */
     padding-top: 20px;
     /* border: 2px solid black; */
     /* background-color: #ffffff; */
@@ -31,21 +32,40 @@
     display: flex;
     flex-direction: column;
     max-width: 300px;
-    align-items: center;
-    justify-content: center;
-    background: linear-gradient(153deg,#e89ae4,#4bd5f4);
+    align-items: start;
+    justify-content:center;
+    /* background: linear-gradient(153deg,#e89ae4,#4bd5f4); */
     cursor: pointer;
     margin:20px;
-    padding: 10px;
+    padding-top: 10px;
     border-radius: 18px;
-    border-style: solid 5px;
-    box-shadow: 10px 10px 5px lightblue;
+    /* border-style: solid 5px; */
+    /* box-shadow: 10px 10px 5px lightblue; */
+    box-shadow: 0px 5px 10px 5px rgba(0,0,0,0.15);
     /* box-shadow: #000;
     box-shadow: inset; */
 
 }
+.projects div:hover{
+    scale: 1.1;
+    transition: 0.5sec ease-in-out;
+    background-color: #fbe4db;
+}
+.Project-Images:hover{
+    scale: 1.1;
+    transition: 0.5sec ease-in-out;
+}
 .Project-Images{
-    margin-top : 10px;
+    /* margin-top : 10px; */
     width: 300px;
     border-radius: 18px;
+    /* box-shadow: 0 10px 20px 0px rgba(0,0,0,0.15); */
+}
+.projects h3{
+    margin-left: 30px;
+    font-weight: 500;
+}
+.projects h3 b{
+    /* color: #000; */
+    color: #190019;
 }

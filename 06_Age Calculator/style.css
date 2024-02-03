@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+*{
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin : 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background: linear-gradient(153deg, #250344,#06006d);
+    min-height: 100vh;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.app{
+    /* background: #fff; */
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+    max-width: 812px;
+    /* border-radius: 18px; */
+    height: 402px;
+    flex:1;
+}
+.input-box{
+    flex: 1;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items:start;
+    justify-content: space-between;
+    padding: 50px;
+    border-top-left-radius: 18px;
+    border-end-start-radius: 18px;
+}
+.input-box input[type=button]{
+    border-radius: 5px;
+    background: #059822;
+    color: #fff;
+    padding:10px;
+    margin-top: 20px;
+    /* margin:20px; */
+    border: none;
+    outline: 0;
+    font-size:18px;
+    cursor: pointer;
+    
+}
+.input-box input[type=button]:hover{
+    background: #027d1a;
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+}
+.input-box input[type=date]{
+    border: 2px solid black;
+    border-radius: 5px;
+    outline: 0;
+    padding: 10px;
+    cursor: pointer;
+    position: relative;
+    width: 90%;
+}
+/* TODO : calender not picking anywhere click */
+/* .input-box input[type=date] ::-webkit-calendar-picker {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    width: auto;
+    height: auto;
+    background-position-x: calc(100% - 10px);
+    background-size: 30px;
+    cursor: pointer;
+} */
+
+.input-box h1{
+    font-weight: bolder;
+    font-size: 38px;
+}
+.input-box h1 label{
+    color: orange;
+}
+.display{
+    flex: 1;
+    /* background-color: #edfafb; */
+    background: linear-gradient(90deg,#f8f3f3,#e0f7f9);
+    /* border-top-right-radius: 18px;
+    border-end-end-radius: 18px; */
+    border-radius: 18px;
+    display:flex;
+    flex-direction: column;
+    align-items:start;
+    justify-content:center;
+    /* padding-top: 30px; */
+    padding-left: 30px;
+    margin-left :  -20px;
+}
+.display label{
+    color: orange;
+}
+.display h2{
+    font-size:30px;
+    font-weight: 800;
+    color: #1b1b1b;
+    margin-bottom: 20px;
+}
+.display h3{
+    font-size:25px;
+    font-weight: 400;
+}
+.display h4{
+    margin-top: 32px;
+    font-size:15px;
+    font-weight: lighter;
+}
+
