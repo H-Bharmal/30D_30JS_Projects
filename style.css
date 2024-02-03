@@ -31,7 +31,7 @@
 .projects div{
     display: flex;
     flex-direction: column;
-    max-width: 300px;
+    max-width: 400px;
     align-items: start;
     justify-content:center;
     /* background: linear-gradient(153deg,#e89ae4,#4bd5f4); */
@@ -41,7 +41,7 @@
     border-radius: 18px;
     /* border-style: solid 5px; */
     /* box-shadow: 10px 10px 5px lightblue; */
-    box-shadow: 0px 5px 10px 5px rgba(0,0,0,0.15);
+    /* box-shadow: 0px 5px 10px 5px rgba(0,0,0,0.15); */
     /* box-shadow: #000;
     box-shadow: inset; */
 
@@ -57,11 +57,12 @@
 }
 .Project-Images{
     /* margin-top : 10px; */
-    width: 300px;
+    width: 400px;
     border-radius: 18px;
     /* box-shadow: 0 10px 20px 0px rgba(0,0,0,0.15); */
 }
 .projects h3{
+    display: none;
     margin-left: 30px;
     font-weight: 500;
 }
